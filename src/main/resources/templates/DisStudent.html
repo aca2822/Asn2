@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Delete Student</title>
+    <link rel="stylesheet" href="./stylesheets/DisStu.css">
+    <script src="./javascript/DisStu.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="mainPage.html">Home</a>
+        <h1 id="Title">Displaying Students in Database</h1>
+        
+        
+    </header>
+    
+    <main class="container-fluid">
+        <div class="row justify-content-center">
+            <div >  
+                    
+                    <br>
+                    <tr th:each="student:${st}">
+                        <div class="IndStudent">
+                            <a>First Name:</a><span th:text="${student.firstName}"></span><br>
+                            <a>Last Name:</a><span th:text="${student.lastName}"></span><br>
+                            <a>Weight:</a><span th:text="${student.weight}"></span><br>
+                            <a>Height:</a><span th:text="${student.height}"></span><br>
+                            <a>Hair Color:</a><span th:text="${student.hairColor}"></span><br>
+                            <a>GPA:</a><span th:text="${student.GPA}"></span><br>
+                            <a>CGPA:</a><span th:text="${student.CGPA}"></span><br>
+                            <a>ID:</a><span th:text="${student.id}"></span>
+                        </div>
+                      
+                    </tr>
+                    
+                
+            </div>
+        </div>
+    </main>
+    
+    
+   
+</body>
+
+
+</html>

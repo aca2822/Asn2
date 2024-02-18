@@ -1,0 +1,58 @@
+* {background-color: rgb(132, 176, 241)}
+
+#Title{
+    font-size: 90px;
+    text-align: center;
+    font-style: oblique;
+    font-family: "Times New Roman", Times, serif;
+}
+
+input{
+    background-color: white;
+}
+
+button{
+    background-color: white;
+}
+
+.MainBody{
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+}
+
+p {
+    
+}
+
+#hiddenPage{
+    visibility: hidden;
+}
+
+.TableHeader{
+    display: inline-block;
+    width: 95%;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    border-style: solid;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+ .IndStudent{
+    
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 1px;
+    display: inline-block;
+    width: 19%;
+    border-style: solid;
+   
+    
+  }
+  

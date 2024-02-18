@@ -1,0 +1,49 @@
+* {background-color: rgb(132, 176, 241)}
+
+#Title{
+    font-size: 90px;
+    text-align: center;
+    font-style: oblique;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+input{
+    background-color: white;
+}
+
+button{
+    background-color: white;
+}
+
+.MainBody{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+
+.TextBox{
+    /* float: right; */
+    margin: auto;
+    width: 60%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.SubmitBox{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 40%;
+    padding: 5px;
+}
+
+#hiddenButton{
+    visibility: hidden;
+}
+
+
+#hiddenPage{
+    visibility: hidden;
+}

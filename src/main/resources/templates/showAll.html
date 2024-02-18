@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+
+</head>
+<body>
+    <main class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h1>Students</h1>
+                <ul>
+                    <li th:each="student:${st}">
+                        <span th:text="${student.firstName}"></span>
+                        <span th:text="${student.lastName}"></span>
+                        <span th:text="${student.weight}"></span>
+                        <span th:text="${student.height}"></span>
+                        <span th:text="${student.hairColor}"></span>
+                        <span th:text="${student.GPA}"></span>
+                        <span th:text="${student.CGPA}"></span>
+                        <span th:text="${student.ID}"></span>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+
+
+</body>
+</html>

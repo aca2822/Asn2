@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Modify Students</title>
+    <link rel="stylesheet" href="./stylesheets/ModStu0.css">
+    <script src="./javascript/ModStu0.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="mainPage.html">Home</a>
+        <h1 id="Title">Modify Existing Student in Database</h1>
+        
+
+        
+    </header>
+    
+    <main>
+        <div class="MainBody">
+            
+            <a>Please Enter the Student Name of the student you wish to delete:</a><br><br>
+            <a>First Name       :</a><input type="text" class="TextBox" value="" id="fValue" name="firstName"></input>
+            <br><br>
+            <a>Last Name       :</a><input type="text" class="TextBox" value="" id="lValue" name="lastName"></input>
+            <br><br>
+            <br><br><a></a><input type="submit" class="SubmitBox" value="Submit" id="StudentName"></input>
+            <br><br><br>
+            <a >Otherwise, enter the ID number:</a><br><br>
+            <a>ID              :</a><input type="text" class="TextBox" value="" id="idValue" name="id"></input>
+            <br><br><a></a><input type="submit" class="SubmitBox" value="Submit" id="Studentid"></input>
+            
+            <br><br><br>
+            <a class="SubmitBox">Otherwise, </a>  <a href="#" id="DisplayStudents" class="SubmitBox">Find a student.</a>
+            <form action="DeleteByName" method="post" id="hiddenPage">
+                <input type="text" id="fullNameF" name="fullNameF"></input>
+                <input type="submit" class="SubmitBox" id="SubmitFullName"></input>
+            </form>
+            <form action="DeleteByID" method="post" id="hiddenPage">
+                <input type="text" id="fullIDF" name="fullIDF"></input>
+                <input type="submit" class="SubmitBox" id="SubmitFullID"></input>
+            </form>
+            <form method="get" action="showDB" id="StudentDB">
+                <input type="submit" class="SubmitBox" value="Submit" id="hiddenButton"></input>
+                
+            </form>
+        </div>   
+                
+            
+    </main>
+    
+    
+   
+</body>
+
+
+</html>
